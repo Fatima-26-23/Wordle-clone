@@ -1,1 +1,2 @@
-@import "tailwindcss";
+@import "tailwindcss"; /* As we have included the styles in the App.jsx file we don't need a separate .css file */
+/* If you want you can add your own styles here and link it to the App.jsx file as import "./index.css"; */
