@@ -70,3 +70,5 @@ Then open the local URL shown in the terminal (usually `http://localhost:5173`) 
 - The two Sun/Moon illustrations are embedded as base64-encoded WebP images directly in the component.
 - If both the word API and dictionary check fail, the game falls back to a small built-in word list (APPLE, BRAVE, CRANE, etc.).
 - Word validation calls the dictionary API on every submitted guess, so an internet connection is required for full functionality (though the game won't block you if the API is down).
+- ### For .css file:
+- As we have included the styles in the App.jsx file we don't need a separate .css file. If you want you can add your own styles here and link it to the App.jsx file as import "./index.css";
